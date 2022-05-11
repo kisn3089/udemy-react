@@ -16,7 +16,6 @@ const ExpenseForm = (props) => {
 
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value);
-        
 
         // 아래도 하나의 방법
         // setUserInput({
