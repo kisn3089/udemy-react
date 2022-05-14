@@ -37,7 +37,7 @@ const ExpenseForm = (props) => {
 
         const expenseData = {
             title: enteredTitle,
-            amount: enteredAmount,
+            amount: +enteredAmount,
             date: new Date(enteredDate)
         };
         // 자식이 부모에게 값을 전달할때

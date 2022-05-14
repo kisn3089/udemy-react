@@ -13,6 +13,7 @@ const Expenses = (props) => {
         setFilteredYear(selectedYear);
     };
 
+    // props.items로 id, title, amount, date를 가져왔다.
     const filteredExpenses = props.items.filter(expense => {
         return expense.date.getFullYear().toString() === filteredYear;
     });

@@ -17,6 +17,7 @@ const ExpensesChart = (props) => {
         { label: 'Dec', value: 0 },
     ]
 
+    // props.expenses로 id, title, amount, date를 가져왔다.
     for(const expense of props.expenses) {
         const expenseMonth = expense.date.getMonth(); // starting at 0 => January => 0
         chartDataPoints[expenseMonth].value += expense.amount;
