@@ -9,6 +9,8 @@
 감을 잡기 어려웠지만 이 프로젝트는 거의 대부분의 컴포넌트가 하위 -> 상위로 props를 통해 데이터를 옮겨가는 구조여서
 props를 통해 데이터를 이동하는것에 대해 많이 배울 수 있었던 프로젝트였다.
 
+-------------------------
+
 ![first](https://user-images.githubusercontent.com/96061695/175313530-0b731f29-4155-4b6e-b129-dc055b239cca.png)
 ![add](https://user-images.githubusercontent.com/96061695/175313541-d27250e9-a3a7-43c5-a5ea-e6a75bd4797b.png)
 ![fine](https://user-images.githubusercontent.com/96061695/175313549-0c6c172a-fd41-45fd-81ad-e67d79c3ce4b.png)
