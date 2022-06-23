@@ -1,5 +1,6 @@
 ## Udemy React 강의를 통해 진행한 프로젝트
 최근 수정날짜: 22-06-23
+배포: https://udemy-react-8c8pvkuo5-kisn3089.vercel.app/
 
 ## 기능: 가계부
 #### 내가 사용한 금액과 이름과 날짜, 혹은 미래에 사용할 데이터를 Add하면 Dummy Data에 추가되고 <br/>map을 통해 Dummy Data를 보여준다. 또 연도별 차트를 %로 sort하였다.
