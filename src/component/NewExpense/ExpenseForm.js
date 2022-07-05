@@ -7,12 +7,7 @@ const ExpenseForm = (props) => {
     // 강사는 바로 아래의 방법처럼 각각 하나의 독립적인 useState를 선호함
     const [enteredTitle, setEnteredTitle] = useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
-    const [enteredDate, setEnteredDate] = useState('');
-    // const [userInput, setUserInput] = useState({
-    //     enteredTitle: '',
-    //     enteredAmount: '',
-    //     enteredDate: ''
-    // })
+    const [enteredDate, setEnteredDate] = useState(new Date(+new Date() + 3240 * 10000).toISOString().split("T")[0]);
 
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value);
@@ -29,6 +24,7 @@ const ExpenseForm = (props) => {
     }
 
     const dateChangeHandler = (event) => {
+        console.log(enteredDate);
         setEnteredDate(event.target.value);
     }
     const submitHandler = (event) => {
